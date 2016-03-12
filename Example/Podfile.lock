@@ -1,0 +1,14 @@
+PODS:
+  - HaidoraRuler (0.1.0)
+
+DEPENDENCIES:
+  - HaidoraRuler (from `../`)
+
+EXTERNAL SOURCES:
+  HaidoraRuler:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HaidoraRuler: b91213fa028f5de3bae5f9266e858f5406db7b4b
+
+COCOAPODS: 0.39.0

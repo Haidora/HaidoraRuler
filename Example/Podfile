@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'HaidoraRuler_Example', :exclusive => true do
+  pod 'HaidoraRuler', :path => '../'
+end
+
+target 'HaidoraRuler_Tests', :exclusive => true do
+  pod 'HaidoraRuler', :path => '../'
+
+  
+end

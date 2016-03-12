@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DEF473AA0AE65A228602EF31EC1860A /* Ruler.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DC2EDCBA55942E7D4417C31B407160 /* Ruler.m */; };
+		48FAE5F6173F934DDEB2A8658CA4802F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		55C5D2DBC0C62DFB0F4303E9D10C7FB3 /* Ruler.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C6F787FAC1350A81FB35990C2A8322 /* Ruler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F7961F6290C054573E283D5D28D44A /* HaidoraRuler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CA20DABAF3CF972ED9F29D5A0C699E /* HaidoraRuler-dummy.m */; };
+		773E446543CEC61F935431B2163DD1C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		8F554427BA6A48F5A71B6DBCDFF33E55 /* Pods-HaidoraRuler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68660A3DA3D6572FA52DB63161782946 /* Pods-HaidoraRuler_Example-dummy.m */; };
+		A9EA6CBF39F590A95F6BBEAD44A9DBA5 /* Pods-HaidoraRuler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA5EBD0B2FC9AF9405390A78739FD4D /* Pods-HaidoraRuler_Tests-dummy.m */; };
+		C20C4833A6CCD137CED86C7570AEC136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		F150AB5E7F349EA44FE500FED4FED756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		921DD860E05FB50AE3E74289E5D567C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9A527EBA1C3FF7FE72B82E3F25B753;
+			remoteInfo = HaidoraRuler;
+		};
+		F916553EBE2EDFD0FD919B33C3197DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9A527EBA1C3FF7FE72B82E3F25B753;
+			remoteInfo = HaidoraRuler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A927302F5F96FECFA602D6DB76E9F8 /* Pods-HaidoraRuler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraRuler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C47DA177FDB5E7799B85FD0B1FB62DE /* Pods-HaidoraRuler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraRuler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		319BFA9171029B6A71D1196EBAB89072 /* libPods-HaidoraRuler_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraRuler_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B095EAD42318849C4D0E67F0FFE84A /* Pods-HaidoraRuler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraRuler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		382080AEF216D0779FD0C49859C667A9 /* Pods-HaidoraRuler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraRuler_Example-resources.sh"; sourceTree = "<group>"; };
+		3AA5EBD0B2FC9AF9405390A78739FD4D /* Pods-HaidoraRuler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraRuler_Tests-dummy.m"; sourceTree = "<group>"; };
+		3D01931255750A5A150A5EE4F72FD0BD /* Pods-HaidoraRuler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraRuler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4C9E7ADE687C51127907036E30C12189 /* HaidoraRuler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaidoraRuler.xcconfig; sourceTree = "<group>"; };
+		51C6F787FAC1350A81FB35990C2A8322 /* Ruler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Ruler.h; sourceTree = "<group>"; };
+		5A776728FB1C2B36A7E8D81D5DC7E35E /* libPods-HaidoraRuler_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraRuler_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68660A3DA3D6572FA52DB63161782946 /* Pods-HaidoraRuler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraRuler_Example-dummy.m"; sourceTree = "<group>"; };
+		6C1CAC6CC24DD6393F09416E54150A00 /* HaidoraRuler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraRuler-prefix.pch"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77DC2EDCBA55942E7D4417C31B407160 /* Ruler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Ruler.m; sourceTree = "<group>"; };
+		8DACEC17597175A115F38F5A44325548 /* Pods-HaidoraRuler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraRuler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EF2F359D4DF11B8CE88C8170CFDDE25 /* Pods-HaidoraRuler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraRuler_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B7AEB8D37FC96055FD151302D376723D /* libHaidoraRuler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHaidoraRuler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC7313F59B6E09BAF505F77CFCDB929C /* Pods-HaidoraRuler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraRuler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9D5F0C3F13E2C6FA82FE252231ADD18 /* Pods-HaidoraRuler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraRuler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EFA02E0A6FEB70C732F2256CACC836B1 /* Pods-HaidoraRuler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraRuler_Tests-resources.sh"; sourceTree = "<group>"; };
+		F9CA20DABAF3CF972ED9F29D5A0C699E /* HaidoraRuler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaidoraRuler-dummy.m"; sourceTree = "<group>"; };
+		FBD0B8C7B7ACFEDAE52FCC7219AEC107 /* Pods-HaidoraRuler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraRuler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD0224B1CF08664A91400236091DA447 /* Pods-HaidoraRuler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraRuler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		578B89335958957132C22E8E55D354B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150AB5E7F349EA44FE500FED4FED756 /* Foundation.framework in Frameworks */,
+				773E446543CEC61F935431B2163DD1C2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CE3D5FA25588A0A08F3C69B47902A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20C4833A6CCD137CED86C7570AEC136 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D597D1E231E6C3982591D988C323F450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FAE5F6173F934DDEB2A8658CA4802F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		241D4B1D869DFA14C5B0B9C80F6784C3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9D105035124C284AA2C8C469710D354 /* HaidoraRuler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3447B6AFCFCCEB9B161BC73E296C332B /* Pods-HaidoraRuler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00A927302F5F96FECFA602D6DB76E9F8 /* Pods-HaidoraRuler_Tests-acknowledgements.markdown */,
+				FBD0B8C7B7ACFEDAE52FCC7219AEC107 /* Pods-HaidoraRuler_Tests-acknowledgements.plist */,
+				3AA5EBD0B2FC9AF9405390A78739FD4D /* Pods-HaidoraRuler_Tests-dummy.m */,
+				8EF2F359D4DF11B8CE88C8170CFDDE25 /* Pods-HaidoraRuler_Tests-frameworks.sh */,
+				EFA02E0A6FEB70C732F2256CACC836B1 /* Pods-HaidoraRuler_Tests-resources.sh */,
+				31B095EAD42318849C4D0E67F0FFE84A /* Pods-HaidoraRuler_Tests.debug.xcconfig */,
+				2C47DA177FDB5E7799B85FD0B1FB62DE /* Pods-HaidoraRuler_Tests.release.xcconfig */,
+			);
+			name = "Pods-HaidoraRuler_Tests";
+			path = "Target Support Files/Pods-HaidoraRuler_Tests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7024039E2B8AB3A7CD08423243B45EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7AEB8D37FC96055FD151302D376723D /* libHaidoraRuler.a */,
+				319BFA9171029B6A71D1196EBAB89072 /* libPods-HaidoraRuler_Example.a */,
+				5A776728FB1C2B36A7E8D81D5DC7E35E /* libPods-HaidoraRuler_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				241D4B1D869DFA14C5B0B9C80F6784C3 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7024039E2B8AB3A7CD08423243B45EEC /* Products */,
+				FC98392C06E428F047ED709C4B281E0B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B55D9632388A3F683BD0CCE9D41028F7 /* Pods-HaidoraRuler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DC7313F59B6E09BAF505F77CFCDB929C /* Pods-HaidoraRuler_Example-acknowledgements.markdown */,
+				8DACEC17597175A115F38F5A44325548 /* Pods-HaidoraRuler_Example-acknowledgements.plist */,
+				68660A3DA3D6572FA52DB63161782946 /* Pods-HaidoraRuler_Example-dummy.m */,
+				3D01931255750A5A150A5EE4F72FD0BD /* Pods-HaidoraRuler_Example-frameworks.sh */,
+				382080AEF216D0779FD0C49859C667A9 /* Pods-HaidoraRuler_Example-resources.sh */,
+				FD0224B1CF08664A91400236091DA447 /* Pods-HaidoraRuler_Example.debug.xcconfig */,
+				E9D5F0C3F13E2C6FA82FE252231ADD18 /* Pods-HaidoraRuler_Example.release.xcconfig */,
+			);
+			name = "Pods-HaidoraRuler_Example";
+			path = "Target Support Files/Pods-HaidoraRuler_Example";
+			sourceTree = "<group>";
+		};
+		C97F311C99F307A18D8642A8F0AB303C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51C6F787FAC1350A81FB35990C2A8322 /* Ruler.h */,
+				77DC2EDCBA55942E7D4417C31B407160 /* Ruler.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD90C6291E3150D3CC21667FB84B7E49 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C97F311C99F307A18D8642A8F0AB303C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D07E97D29813DFE7A2D81619E67FCFEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E7ADE687C51127907036E30C12189 /* HaidoraRuler.xcconfig */,
+				F9CA20DABAF3CF972ED9F29D5A0C699E /* HaidoraRuler-dummy.m */,
+				6C1CAC6CC24DD6393F09416E54150A00 /* HaidoraRuler-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HaidoraRuler";
+			sourceTree = "<group>";
+		};
+		F9D105035124C284AA2C8C469710D354 /* HaidoraRuler */ = {
+			isa = PBXGroup;
+			children = (
+				CD90C6291E3150D3CC21667FB84B7E49 /* Pod */,
+				D07E97D29813DFE7A2D81619E67FCFEF /* Support Files */,
+			);
+			name = HaidoraRuler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC98392C06E428F047ED709C4B281E0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55D9632388A3F683BD0CCE9D41028F7 /* Pods-HaidoraRuler_Example */,
+				3447B6AFCFCCEB9B161BC73E296C332B /* Pods-HaidoraRuler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26BB9E7A60950E9243C4BD43CE8F42FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C5D2DBC0C62DFB0F4303E9D10C7FB3 /* Ruler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		190E58EE18CC20A4474CB902F3923D00 /* Pods-HaidoraRuler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707A5CCC9234F0E558D96123EFCFBC56 /* Build configuration list for PBXNativeTarget "Pods-HaidoraRuler_Example" */;
+			buildPhases = (
+				8D835A39F1AE9841D256AC405CBE64A8 /* Sources */,
+				D597D1E231E6C3982591D988C323F450 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E354BE6815B6E6FF6604BAD7551BBFBD /* PBXTargetDependency */,
+			);
+			name = "Pods-HaidoraRuler_Example";
+			productName = "Pods-HaidoraRuler_Example";
+			productReference = 319BFA9171029B6A71D1196EBAB89072 /* libPods-HaidoraRuler_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4B9A527EBA1C3FF7FE72B82E3F25B753 /* HaidoraRuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512546CFB806018AD969C585E04E76F3 /* Build configuration list for PBXNativeTarget "HaidoraRuler" */;
+			buildPhases = (
+				2F5F519BF96D406798227F0CEF409ED7 /* Sources */,
+				578B89335958957132C22E8E55D354B5 /* Frameworks */,
+				26BB9E7A60950E9243C4BD43CE8F42FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaidoraRuler;
+			productName = HaidoraRuler;
+			productReference = B7AEB8D37FC96055FD151302D376723D /* libHaidoraRuler.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CA2DEBB50D295233704FEC4CBB4AF56A /* Pods-HaidoraRuler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B704EAA2698E40E10AAE13310E42929 /* Build configuration list for PBXNativeTarget "Pods-HaidoraRuler_Tests" */;
+			buildPhases = (
+				9437C7F589973BE5C9E9D638E6A2A7C1 /* Sources */,
+				C9CE3D5FA25588A0A08F3C69B47902A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31408FCBE85546A1C15E089E8BF6DA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HaidoraRuler_Tests";
+			productName = "Pods-HaidoraRuler_Tests";
+			productReference = 5A776728FB1C2B36A7E8D81D5DC7E35E /* libPods-HaidoraRuler_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7024039E2B8AB3A7CD08423243B45EEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B9A527EBA1C3FF7FE72B82E3F25B753 /* HaidoraRuler */,
+				190E58EE18CC20A4474CB902F3923D00 /* Pods-HaidoraRuler_Example */,
+				CA2DEBB50D295233704FEC4CBB4AF56A /* Pods-HaidoraRuler_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F5F519BF96D406798227F0CEF409ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F7961F6290C054573E283D5D28D44A /* HaidoraRuler-dummy.m in Sources */,
+				0DEF473AA0AE65A228602EF31EC1860A /* Ruler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D835A39F1AE9841D256AC405CBE64A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F554427BA6A48F5A71B6DBCDFF33E55 /* Pods-HaidoraRuler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9437C7F589973BE5C9E9D638E6A2A7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA6CBF39F590A95F6BBEAD44A9DBA5 /* Pods-HaidoraRuler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E354BE6815B6E6FF6604BAD7551BBFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HaidoraRuler;
+			target = 4B9A527EBA1C3FF7FE72B82E3F25B753 /* HaidoraRuler */;
+			targetProxy = 921DD860E05FB50AE3E74289E5D567C3 /* PBXContainerItemProxy */;
+		};
+		F31408FCBE85546A1C15E089E8BF6DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HaidoraRuler;
+			target = 4B9A527EBA1C3FF7FE72B82E3F25B753 /* HaidoraRuler */;
+			targetProxy = F916553EBE2EDFD0FD919B33C3197DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		011EF67DEB2276B839795D6145A65110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0224B1CF08664A91400236091DA447 /* Pods-HaidoraRuler_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		032604615644A2E2EBD5C163323CE38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D5F0C3F13E2C6FA82FE252231ADD18 /* Pods-HaidoraRuler_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		227DFA31611D981CF9BEA357DC56E840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9E7ADE687C51127907036E30C12189 /* HaidoraRuler.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaidoraRuler/HaidoraRuler-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		904F4E6115D0E50B09B4799E2DB036D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B095EAD42318849C4D0E67F0FFE84A /* Pods-HaidoraRuler_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0AFE97D9EF7E3FEA5471C7A6D517A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9E7ADE687C51127907036E30C12189 /* HaidoraRuler.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaidoraRuler/HaidoraRuler-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E50635013D4460B0FF4ECBC135EA75A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C47DA177FDB5E7799B85FD0B1FB62DE /* Pods-HaidoraRuler_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512546CFB806018AD969C585E04E76F3 /* Build configuration list for PBXNativeTarget "HaidoraRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227DFA31611D981CF9BEA357DC56E840 /* Debug */,
+				C0AFE97D9EF7E3FEA5471C7A6D517A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B704EAA2698E40E10AAE13310E42929 /* Build configuration list for PBXNativeTarget "Pods-HaidoraRuler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904F4E6115D0E50B09B4799E2DB036D4 /* Debug */,
+				E50635013D4460B0FF4ECBC135EA75A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707A5CCC9234F0E558D96123EFCFBC56 /* Build configuration list for PBXNativeTarget "Pods-HaidoraRuler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011EF67DEB2276B839795D6145A65110 /* Debug */,
+				032604615644A2E2EBD5C163323CE38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
