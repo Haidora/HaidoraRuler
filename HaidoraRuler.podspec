@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "Size matters, you need a ruler."
   s.description      = <<-DESC
-                        may be you need for oc.
+                      Size matters, you need a ruler,may be you need for oc.
                        DESC
 
   s.homepage         = "https://github.com/Haidora/HaidoraRuler"

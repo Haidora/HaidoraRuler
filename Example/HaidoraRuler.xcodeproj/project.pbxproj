@@ -23,6 +23,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AB07680C1C9470D500E3F01E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB07680B1C9470D500E3F01E /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A934980B103C8425B4A8A779 /* HaidoraRuler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HaidoraRuler.podspec; path = ../HaidoraRuler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAFCC7328646AAE93C5FD434 /* Pods-HaidoraRuler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraRuler_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraRuler_Tests/Pods-HaidoraRuler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB07680B1C9470D500E3F01E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C8C4A670D60536ADE202A4E5 /* Pods-HaidoraRuler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraRuler_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraRuler_Tests/Pods-HaidoraRuler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9D8C713867443D29B627234 /* Pods-HaidoraRuler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraRuler_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraRuler_Example/Pods-HaidoraRuler_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F3AAAB09F4C0ACBBD283CDE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				6003F5A6195388D20070C39A /* HDViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				AB07680B1C9470D500E3F01E /* Launch Screen.storyboard */,
 			);
 			name = "Example for HaidoraRuler";
 			path = HaidoraRuler;
@@ -278,6 +281,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				AB07680C1C9470D500E3F01E /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

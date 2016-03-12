@@ -53,27 +53,27 @@ inline static DeviceModel getCurrentDeviceModel()
 
 @interface _RuleriPhoneHorizontal : Ruler
 
-@property (nonatomic, strong) id classic;
-@property (nonatomic, strong) id bigger;
-@property (nonatomic, strong) id biggerPlus;
+@property (nonatomic, copy) id classic;
+@property (nonatomic, copy) id bigger;
+@property (nonatomic, copy) id biggerPlus;
 
 @end
 
 @interface _RuleriPhoneVertical : Ruler
 
-@property (nonatomic, strong) id classicInch35;
-@property (nonatomic, strong) id classicInch4;
-@property (nonatomic, strong) id bigger;
-@property (nonatomic, strong) id biggerPlus;
+@property (nonatomic, copy) id classicInch35;
+@property (nonatomic, copy) id classicInch4;
+@property (nonatomic, copy) id bigger;
+@property (nonatomic, copy) id biggerPlus;
 
 @end
 
 @interface _RuleriPhone : Ruler
 
-@property (nonatomic, strong) id iPhone4_s;
-@property (nonatomic, strong) id iPhone5_s;
-@property (nonatomic, strong) id iPhone6_s;
-@property (nonatomic, strong) id iPhone6Plus_s;
+@property (nonatomic, copy) id iPhone4_s;
+@property (nonatomic, copy) id iPhone5_s;
+@property (nonatomic, copy) id iPhone6_s;
+@property (nonatomic, copy) id iPhone6Plus_s;
 
 @end
 
