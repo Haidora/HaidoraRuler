@@ -20,9 +20,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //泛型建议传对象
-    Ruler<NSNumber *> *width = [Ruler<NSNumber *> iPhoneHorizontal:@(10), @(20), @(30), nil];
+    Ruler<NSNumber *> *width =
+        [Ruler<NSNumber *> iPhoneHorizontal:@(10), @(20), @(30), @(30), @(30), @(30), nil];
     Ruler<NSNumber *> *height = [Ruler iPhoneVertical:@(5), @(10), @(20), @(30), nil];
-    NSLog(@"width:%@ height:%@", width.value, height);
+    NSLog(@"width:%@ height:%@", width.value, height.value);
 
     Ruler<UIFont *> *font =
         [Ruler<UIFont *> iPhone:[UIFont systemFontOfSize:12], [UIFont systemFontOfSize:14],
@@ -30,6 +31,13 @@
     NSLog(@"font:%@", font.value);
     NSString *string = [Ruler<NSString *> iPhone:@"1", nil].value;
     NSLog(@"%@", string);
+
+    if ([[Ruler<NSString *> iPhoneHorizontal:@"1", @"2", @"3", nil]
+                .value
+            isEqualToString:[Ruler<NSString *> iPhoneHorizontal](@"1", @"2", @"3").value])
+    {
+        NSLog(@"ok");
+    }
 }
 
 - (void)didReceiveMemoryWarning

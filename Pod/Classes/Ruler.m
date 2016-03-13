@@ -102,6 +102,14 @@ inline static DeviceModel getCurrentDeviceModel()
     return ruler;
 }
 
++ (Ruler<id> * (^)())iPhoneHorizontal
+{
+    return ^Ruler *(id classic, id bigger, id biggerPlus)
+    {
+        return [Ruler iPhoneHorizontal:classic, bigger, biggerPlus, nil];
+    };
+}
+
 + (instancetype)iPhoneVertical:(id)classicInch35, ...
 {
     _RuleriPhoneVertical *ruler = [[_RuleriPhoneVertical alloc] init];
@@ -127,6 +135,14 @@ inline static DeviceModel getCurrentDeviceModel()
     }
     va_end(args);
     return ruler;
+}
+
++ (Ruler<id> * (^)())iPhoneVertical
+{
+    return ^Ruler *(id classicInch35, id classicInch4, id bigger, id biggerPlus)
+    {
+        return [Ruler iPhoneVertical:classicInch35, classicInch4, bigger, biggerPlus, nil];
+    };
 }
 
 + (instancetype)iPhone:(id)iPhone4_s, ...
@@ -156,6 +172,14 @@ inline static DeviceModel getCurrentDeviceModel()
     return ruler;
 }
 
++ (Ruler<id> * (^)())iPhone
+{
+    return ^Ruler *(id iPhone4_s, id iPhone5_s, id iPhone6_s, id iPhone6Plus_s)
+    {
+        return [Ruler iPhone:iPhone4_s, iPhone5_s, iPhone6_s, iPhone6Plus_s, nil];
+    };
+}
+
 - (id)value
 {
     NSLog(@"subClass need override");
@@ -169,30 +193,30 @@ inline static DeviceModel getCurrentDeviceModel()
 - (id)value
 {
     DeviceModel model = getCurrentDeviceModel();
+
+    id value;
     switch (model)
     {
     case DeviceModel_iPhone4_s:
     case DeviceModel_iPhone5_s:
     {
-        return self.classic;
+        value = self.classic;
     }
     break;
     case DeviceModel_iPhone6_s:
     {
-        return self.bigger;
+        value = self.bigger;
     }
     break;
     case DeviceModel_iPhone6Plus_s:
     {
-        return self.biggerPlus;
+        value = self.biggerPlus;
     }
     break;
     default:
-    {
-        return self.classic;
+        break;
     }
-    break;
-    }
+    return value ?: self.classic;
 }
 
 @end
@@ -202,34 +226,34 @@ inline static DeviceModel getCurrentDeviceModel()
 - (id)value
 {
     DeviceModel model = getCurrentDeviceModel();
+
+    id value;
     switch (model)
     {
     case DeviceModel_iPhone4_s:
     {
-        return self.classicInch35;
+        value = self.classicInch35;
     }
     break;
     case DeviceModel_iPhone5_s:
     {
-        return self.classicInch4;
+        value = self.classicInch4;
     }
     break;
     case DeviceModel_iPhone6_s:
     {
-        return self.bigger;
+        value = self.bigger;
     }
     break;
     case DeviceModel_iPhone6Plus_s:
     {
-        return self.biggerPlus;
+        value = self.biggerPlus;
     }
     break;
     default:
-    {
-        return self.classicInch35;
+        break;
     }
-    break;
-    }
+    return value ?: self.classicInch35;
 }
 
 @end
@@ -239,34 +263,34 @@ inline static DeviceModel getCurrentDeviceModel()
 - (id)value
 {
     DeviceModel model = getCurrentDeviceModel();
+
+    id value;
     switch (model)
     {
     case DeviceModel_iPhone4_s:
     {
-        return self.iPhone4_s;
+        value = self.iPhone4_s;
     }
     break;
     case DeviceModel_iPhone5_s:
     {
-        return self.iPhone5_s;
+        value = self.iPhone5_s;
     }
     break;
     case DeviceModel_iPhone6_s:
     {
-        return self.iPhone6_s;
+        value = self.iPhone6_s;
     }
     break;
     case DeviceModel_iPhone6Plus_s:
     {
-        return self.iPhone6Plus_s;
+        value = self.iPhone6Plus_s;
     }
     break;
     default:
-    {
-        return self.iPhone4_s;
+        break;
     }
-    break;
-    }
+    return value ?: self.iPhone4_s;
 }
 
 @end
