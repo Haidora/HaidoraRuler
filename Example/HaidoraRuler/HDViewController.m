@@ -28,6 +28,8 @@
         [Ruler<UIFont *> iPhone:[UIFont systemFontOfSize:12], [UIFont systemFontOfSize:14],
                                 [UIFont systemFontOfSize:16], [UIFont systemFontOfSize:18], nil];
     NSLog(@"font:%@", font.value);
+    NSString *string = [Ruler<NSString *> iPhone:@"1", nil].value;
+    NSLog(@"%@", string);
 }
 
 - (void)didReceiveMemoryWarning

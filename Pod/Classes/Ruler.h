@@ -43,7 +43,7 @@ typedef NS_ENUM(NSInteger, DeviceModel) {
  *  @param Biggert iPhone6_s
  *  @param BiggerPlus  iPhone6Plus_s
  */
-+ (instancetype)iPhoneHorizontal:(ObjectType)classic, ... NS_REQUIRES_NIL_TERMINATION;
++ (Ruler<ObjectType> *)iPhoneHorizontal:(ObjectType)classic, ... NS_REQUIRES_NIL_TERMINATION;
 
 /**
  *  Ruler of iPhoneVertical.
@@ -53,7 +53,7 @@ typedef NS_ENUM(NSInteger, DeviceModel) {
  *  @param Biggert iPhone6_s
  *  @param BiggerPlus  iPhone6Plus
  */
-+ (instancetype)iPhoneVertical:(ObjectType)classicInch35, ... NS_REQUIRES_NIL_TERMINATION;
++ (Ruler<ObjectType> *)iPhoneVertical:(ObjectType)classicInch35, ... NS_REQUIRES_NIL_TERMINATION;
 
 /**
  *  Ruler of iPhone
@@ -63,7 +63,7 @@ typedef NS_ENUM(NSInteger, DeviceModel) {
  *  @param iPhone6_s iPhone6_s
  *  @param iPhone6Plus_s  iPhone6Plus_s
  */
-+ (instancetype)iPhone:(ObjectType)iPhone4_s, ... NS_REQUIRES_NIL_TERMINATION;
++ (Ruler<ObjectType> *)iPhone:(ObjectType)iPhone4_s, ... NS_REQUIRES_NIL_TERMINATION;
 
 /**
  *  Value for different sizes of iOS devices.
