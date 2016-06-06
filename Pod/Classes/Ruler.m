@@ -39,7 +39,7 @@ inline static DeviceModel getCurrentDeviceModel()
     {
         deviceModel = DeviceModel_iPhone6_s;
     }
-    else if (3 * 414 == nativeWidth)
+    else if (nativeWidth == 1080)
     {
         deviceModel = DeviceModel_iPhone6Plus_s;
     }
